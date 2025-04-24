@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+  }
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #444;
+  }
+  section {
+    padding: 20px;
+  }
+  footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .services {
+    /* background-color: #fff; */
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+
+  #Welcome img {
+width: 100%;
+max-width: 600px;
+height: auto;
+display: block;
+margin: 20px auto;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+  .contact, .contact{
+      margin: 20px auto;
+      
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.details {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .details h2 {
+    text-align: center;
+    color: #111;
+    margin-bottom: 20px;
+  }
+  
+  .details label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .details input,
+  .details textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .details textarea {
+    resize: vertical;
+  }
+  
+  .details button {
+    display: block;
+    background-color: #111;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .details button:hover {
+    background-color: #333;
+  }
+  
+    #about img{
+        width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
